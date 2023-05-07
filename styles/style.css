@@ -7,20 +7,13 @@ body {
     font-family: "YekanBakhBold" , Arial, Helvetica, sans-serif;
 }
 header{
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
+
     width: 100%;
     padding: 21px 0 7px;
     margin: auto;
-    flex-wrap: wrap;
     background-color:#fff;
 }
 
-.logo{
-    margin-right: 150px;
-}
 .logo img{
     width: 200px;
 }
@@ -29,7 +22,6 @@ header{
 .header-ul{
     display: flex;
     list-style: none;
-    margin-left: 30px ;
 }
 
 .header-ul li a{
@@ -39,19 +31,14 @@ header{
 }
 .header-ul li {
     font-size: 14px;
-    margin: 0 15px;
-}
-.more-menu {
-    display: flex;
+    margin: 0 19px;
 }
 .more-menu img {
-    width: 10px;
+    width: 8px;
     margin-right: 8px;
 }
 .user{
     display: flex;
-    margin-left: 150px;
-    margin-right: 130px;
     font-size: 14px;
     
 }
@@ -65,7 +52,6 @@ header{
 }
 .user .dashboard a{
     color: #000;
-    margin-left: 30px;
     text-decoration: none;
     padding: 7px 18px;
     border-style: solid;
@@ -73,18 +59,27 @@ header{
 }
 
 nav {
+    background-color: #fff;
+    height: 60px;
     margin-bottom: 10px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
     position: sticky;
+    top: 0;
 }
 .line-hover:hover {
     color:#cd63ff;
     box-shadow: 0 2px 0 0 currentColor;
 }
 section {
-    position:absolute;
-    top: 200px;
-    right: 150px;
+    height: 100VH;
+    background: url(https://res.cloudinary.com/dvzadhnmh/image/upload/v1683021602/fundednext-prod/mt5-laptop-hero.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
 }
 section p {
     font-size: 18px;
