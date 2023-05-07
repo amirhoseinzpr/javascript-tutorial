@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "YekanBakhMedium" , Arial, Helvetica, sans-serif;
+    font-family: "YekanBakhBold" , Arial, Helvetica, sans-serif;
 }
 header{
     display: flex;
@@ -13,24 +13,30 @@ header{
     width: 100%;
     padding: 21px 0 7px;
     margin: auto;
+    background-color:#fff;
 }
-
 .logo{
-    width: 150px;
+    margin-right: 40px;
+}
+.logo img{
+    width: 200px;
 }
 
-.header-ul {
+
+.header-ul{
     display: flex;
     list-style: none;
+    margin-left: 30px ;
 }
 
 .header-ul li a{
     cursor: pointer;
     text-decoration: none;
+    transition: 0.5s ease;
 }
 .header-ul li {
     font-size: 14px;
-    margin: 0 15px;
+    margin: 0 30px;
 }
 .more-menu {
     display: flex;
@@ -39,3 +45,39 @@ header{
     width: 10px;
     margin-right: 8px;
 }
+.user{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 130px;
+    font-size: 14px;
+    
+}
+.user .login a{
+    color: aliceblue;
+    margin-left: 30px;
+    text-decoration: none;
+    background-color:#cd63ff;  
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+.user .dashboard a{
+    color: #000;
+    margin-left: 30px;
+    text-decoration: none;
+    padding: 7px 18px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+nav {
+    margin-bottom: 10px;
+    display: flex;
+    position: sticky;
+}
+.line-hover:hover {
+    color:#cd63ff;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
+
+
