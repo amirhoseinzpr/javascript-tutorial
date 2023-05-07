@@ -8,15 +8,18 @@ body {
 }
 header{
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 21px 0 7px;
     margin: auto;
+    flex-wrap: wrap;
     background-color:#fff;
 }
+
 .logo{
-    margin-right: 40px;
+    margin-right: 150px;
 }
 .logo img{
     width: 200px;
@@ -36,7 +39,7 @@ header{
 }
 .header-ul li {
     font-size: 14px;
-    margin: 0 30px;
+    margin: 0 15px;
 }
 .more-menu {
     display: flex;
@@ -47,7 +50,7 @@ header{
 }
 .user{
     display: flex;
-    margin-left: 30px;
+    margin-left: 150px;
     margin-right: 130px;
     font-size: 14px;
     
@@ -78,6 +81,40 @@ nav {
     color:#cd63ff;
     box-shadow: 0 2px 0 0 currentColor;
 }
+section {
+    position:absolute;
+    top: 200px;
+    right: 150px;
+}
+section p {
+    font-size: 18px;
+}
+section h2 {
+    font-size: 40px;
+}
+section div ul li {
+    list-style: none;
+}
+.canection {
+    display: flex;
+    
+    
+}
+.canection li a {
+    text-decoration: none;
+    color: #fff;
+}
+#money{
+    font-size: 20px;
+}
+#discord {
+    font-size: 20px;
+    padding:10px 10px 4px 10px;
+    border-radius: 10px;
+    background-color:rgb(99,91,255);
+    margin-right: 70px;
+}
+
 
 
 
