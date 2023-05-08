@@ -69,9 +69,22 @@ nav {
     position: sticky;
     top: 0;
 }
-.line-hover:hover {
-    color:#cd63ff;
-    box-shadow: 0 2px 0 0 currentColor;
+.line-hover {
+    position: relative;
+}
+.line-hover::after{
+    position:absolute;
+    bottom:-2px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color:#cd63ff;
+    transition: 0.5s;
+}
+.line-hover:hover::after{
+    width: 100%;
 }
 section {
     height: 100VH;
