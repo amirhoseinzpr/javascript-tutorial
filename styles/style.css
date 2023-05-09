@@ -9,7 +9,7 @@ body {
 header{
 
     width: 100%;
-    padding: 21px 0 7px;
+    padding: 21px 0 0px;
     margin: auto;
     background-color:#fff;
 }
@@ -74,40 +74,19 @@ nav {
     box-shadow: 0 2px 0 0 currentColor;
 }
 section {
-    height: 100VH;
+    height: calc(100vh - 91px);
     background: url(https://res.cloudinary.com/dvzadhnmh/image/upload/v1683021602/fundednext-prod/mt5-laptop-hero.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
     background-size: cover;
     color: #fff;
+    position: relative;
 }
-section p {
-    font-size: 18px;
-}
-section h2 {
-    font-size: 40px;
-}
-section div ul li {
-    list-style: none;
-}
-.canection {
-    display: flex;
-    
-    
-}
-.canection li a {
-    text-decoration: none;
-    color: #fff;
-}
-#money{
-    font-size: 20px;
-}
-#discord {
-    font-size: 20px;
-    padding:10px 10px 4px 10px;
-    border-radius: 10px;
-    background-color:rgb(99,91,255);
-    margin-right: 70px;
+
+
+.test { 
+    position: absolute;
+    top: 120px;
+    right: 100px;
 }
 
 
